@@ -23,7 +23,7 @@ const greeting = {
   username: "rpc1418",
   title: "Hi all, I'm Rudraksh Chourey",
   subTitle: emoji(
-    "I am an aspiring Electronics and Computer Engineer currently in my third year of undergraduate studies. With a relentless passion for technology, I've honed my programming skills over the past few years, becoming proficient in languages like Verilog, C, C++, Java, and Python. I've put these skills into action through various projects that span a spectrum of programming languages, including Python, Java, SQL, Verilog, and have delved into the intricacies of EDA tools such as Cadence, Model-sim, XILINX VIVADO and VITIS. My journey is a testament to my commitment to innovation and the ever-evolving world of technology."
+    "An Electronics and Computer Engineering student at VIT Chennai, with a passion for data science, machine learning, and software development. I specialize in FPGA programming, embedded systems, and developing AI-driven applications that solve real-world problems. With hands-on experience in working with FPGA, STM32, and Jetson boards, I focus on creating, testing, and optimizing embedded applications. My work spans across security analysis, deep learning models, and traffic analytics, where I integrate both hardware and software to deliver innovative solutions. I thrive on pushing the boundaries of technology, whether it's in AI model integration or business intelligence, and I am committed to developing impactful, cutting-edge solutions that drive progress in industries like road safety monitoring and business analytics."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1zi70n1L5jMnte5xeWsISXPYuvCdxi_7F/view?usp=sharing", // Set to empty to hide the button
