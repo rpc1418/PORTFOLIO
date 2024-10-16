@@ -274,7 +274,7 @@ const workExperiences = {
       company: "Samsung",
       companylogo: require("./assets/images/Samsung.png"),
       date: "October 2024 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Developed a lightweight solution to classify chat communications into family and non-family classes, creating a labeled dataset from real-life conversations, while focusing on demographic factors and model efficiency for on-device deployment."
     },
     {
       role: "Development and ML Intern",
@@ -309,12 +309,12 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Few of the Major Projects i worked into...",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/facebookLogo.png"),
+      projectName: "ivats",
+      projectDesc: "IVATS is a Flutter-based app using YOLO V8 for object detection, tracking, trajectory extraction, conflict analysis, real-world coordinate conversion, and data visualization, aimed at improving traffic management and safety. Soon open-sourced.",
       footerLink: [
         {
           name: "Visit Website",
@@ -324,9 +324,20 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/facebookLogo.png"),
+      projectName: "IRAMA",
+      projectDesc: "Created a Linux application that disables the desktop at boot anddetects potholes through live camera feed using an ML model.The application logs data and uploads it to a Cloud server, running on a high performance Jetson board",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/airbnbLogo.png"),
+      projectName: "VGA Interfacing RTL",
+      projectDesc: "Designed RTLs for optimized real-time graphics generation, leverage on-board memory for frame buffers, and delve into FPGA parallelism, using VIVADO andVITIS for programming on Zynq FPGA 7020.",
       footerLink: [
         {
           name: "Visit Website",
@@ -369,29 +380,29 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Embedded Systems and C ",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/stanfordLogo.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://www.testdome.com/certificates/1f5a60c692604772adabf2966bc1c7f4?trk=public_profile_see-credential"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
+      title: "CSIR-CSIO Certificate of Training ",
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/airbnbLogo.png"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+   
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Training Certificate",
+          url: "https://drive.google.com/file/d/10XDETo1I0QIRdtnVM-YSHnsSRuQv7WLH/view?trk=public_profile_see-credential"
         }
       ]
     }
