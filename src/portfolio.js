@@ -361,7 +361,7 @@ const achievementSection = {
     {
       title: "Microsoft Certified Azure- Data Fundamentals",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+        "Foundational knowledge of core data concepts and their implementation using Microsoft Azure data services",
       image: require("./assets/images/codeInLogo.png"),
       imageAlt: "AZURE",
       footerLink: [
@@ -382,7 +382,7 @@ const achievementSection = {
     {
       title: "Embedded Systems and C ",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Proficiency in live coding and understanding of key concepts like call stacks and resource coordination",
       image: require("./assets/images/stanfordLogo.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
@@ -395,7 +395,7 @@ const achievementSection = {
 
     {
       title: "CSIR-CSIO Certificate of Training ",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
+      subtitle: "Hands-on experience in advanced technologies and methodologies in research and development",
       image: require("./assets/images/airbnbLogo.png"),
       imageAlt: "PWA Logo",
       footerLink: [
