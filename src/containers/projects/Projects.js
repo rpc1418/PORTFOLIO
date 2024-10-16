@@ -4,6 +4,7 @@ import Button from "../../components/button/Button";
 import {openSource, socialMediaLinks} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
+
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -11,34 +12,46 @@ export default function Projects() {
   const FailedLoading = () => null;
   const renderLoader = () => <Loading />;
   const [repo, setrepo] = useState([]);
+
   // todo: remove useContex because is not supported
   const {isDark} = useContext(StyleContext);
 
   useEffect(() => {
     const getRepoData = () => {
-      fetch("/profile.json")
+      console.log("Fetching repository data...");
+      fetch("/profile.json", {
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        }
+      })
         .then(result => {
-          if (result.ok) {
-            return result.json();
+          if (!result.ok) {
+            throw new Error("Failed to fetch");
           }
-          throw result;
+          return result.json();  // Try to parse the JSON
         })
         .then(response => {
+          console.log("Data fetched successfully.", response);
           setrepoFunction(response.data.user.pinnedItems.edges);
         })
-        .catch(function (error) {
+        .catch(error => {
           console.error(
-            `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
+            `Error fetching repo data: ${error.message} (Nothing is shown in the Projects section. Also check if the Projects section has been configured properly.)`
           );
           setrepoFunction("Error");
         });
     };
     getRepoData();
   }, []);
+  
+  
 
   function setrepoFunction(array) {
+    console.log("Setting repository data:", array); // Log the array being set to state
     setrepo(array);
   }
+
   if (
     !(typeof repo === "string" || repo instanceof String) &&
     openSource.display
@@ -69,6 +82,7 @@ export default function Projects() {
       </Suspense>
     );
   } else {
+    console.log("Failed to load repositories or openSource is not enabled."); // Log if the repositories aren't loaded
     return <FailedLoading />;
   }
 }
