@@ -21,7 +21,7 @@ export default function Projects() {
       console.log("Fetching repository data...");
       fetch("/portfolio/profile.json", {
         headers: {
-          'Content-Type': 'application/json',
+          'Content-Type': 'applissscation/json',
           'Accept': 'application/json'
         }
       })
