@@ -18,6 +18,7 @@ export default function Projects() {
 
   useEffect(() => {
     const getRepoData = () => {
+      console.log("updated");
       console.log("Fetching repository data...");
       fetch("/portfolio/profile.json", {
         headers: {
