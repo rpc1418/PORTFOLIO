@@ -19,7 +19,7 @@ export default function Projects() {
   useEffect(() => {
     const getRepoData = () => {
       console.log("Fetching repository data...");
-      fetch("/profile.json", {
+      fetch("/portfolio/profile.json", {
         headers: {
           'Content-Type': 'application/json',
           'Accept': 'application/json'
