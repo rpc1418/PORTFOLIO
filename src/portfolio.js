@@ -317,8 +317,8 @@ const bigProjects = {
       projectDesc: "IVATS is a Flutter-based app using YOLO V8 for object detection, tracking, trajectory extraction, conflict analysis, real-world coordinate conversion, and data visualization, aimed at improving traffic management and safety. Soon open-sourced.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Soon to be open Sourced",
+          // url: "http://saayahealth.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -330,7 +330,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://irama.ai/"
         }
       ]
     },
@@ -341,7 +341,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://drive.google.com/file/d/1wAtby3cmc8ycc3TW6RZfx7S1ee7UXcro/view"
         }
       ]
     }
