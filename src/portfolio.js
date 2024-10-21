@@ -289,9 +289,9 @@ const workExperiences = {
     },
     {
       role: "Research Intern and Trainee",
-      company: "CSIR-CSIO, Chanidarh",
+      company: "CSIR-CSIO, Chandigarh",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      date: "Aug 2023 – Oct 2023",
       desc: "Created a project that utilizes the Bresenham line generating algorithm to produce multiple lines within a frame using ZYNQ Z7020 FPGA, with the goal of future integration into a heads-up display (HUD).Engaged in R&D activities focused on developing, testing and optimizing FPGA-based deployable Strategy "
     }
   ]
