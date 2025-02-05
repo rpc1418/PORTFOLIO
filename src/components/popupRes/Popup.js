@@ -1,28 +1,47 @@
-// src/components/popup/Popup.js
-
-import React from "react";
-import "./Popup.scss";
-
-const Popup = ({ isOpen, onClose, onAction1, onAction2 }) => {
-  if (!isOpen) return null;
-
+import React from 'react';
+import './Popup.scss';
+import {illustration, greeting} from "../../portfolio";
+import Button from "../../components/button/Button";
+const Popup = ({ closePopup }) => {
   return (
-    <div className="popup-overlay">
-      <div className="popup-container">
-        <button className="close-btn" onClick={onClose}>
-          X
-        </button>
-        <div className="popup-content">
-          <h2>Do you want to continue?</h2>
-          <div className="popup-buttons">
-            <button className="popup-btn" onClick={onAction1}>
-              Action 1
-            </button>
-            <button className="popup-btn" onClick={onAction2}>
-              Action 2
-            </button>
-          </div>
+    <div className="popup-overlay" onClick={closePopup}>
+      <div className="popup-content" onClick={(e) => e.stopPropagation()}>
+        <h2>Resume</h2>
+        <div className="button-container">
+        {greeting.ML_resumeLink && (
+                  <a
+                    href={greeting.ML_resumeLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    // download="Resume.pdf"
+                    className="download-link-button"
+                  >
+                    <Button text="📥 ML" />
+                  </a>
+                )}{greeting.EC_resumeLink && (
+                  <a
+                    href={greeting.EC_resumeLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    // download="Resume.pdf"
+                    className="download-link-button"
+                  >
+                    <Button text="📥 EC" />
+                  </a>
+                )}{greeting.SDE_resumeLink && (
+                  <a
+                    href={greeting.SDE_resumeLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    // download="Resume.pdf"
+                    className="download-link-button"
+                  >
+                    <Button text="📥 SDE" />
+                  </a>
+                )}
+
         </div>
+        <button className="close-btn" onClick={closePopup}>Close</button>
       </div>
     </div>
   );

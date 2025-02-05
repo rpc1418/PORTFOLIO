@@ -14,7 +14,7 @@ import {
   resumeSection
 } from "../../portfolio";
 
-function Header() {
+function Header({ openPopup }) {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
   const viewOpenSource = openSource.display;
@@ -74,9 +74,7 @@ function Header() {
           {viewResume && (
             <li>
               <a
-                href={greeting.resumeLink}
-                target="_blank"
-                rel="noopener noreferrer"
+                onClick={openPopup} style={{ cursor: "pointer" }}
               >
                 Resume
               </a>
