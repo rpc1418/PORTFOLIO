@@ -226,7 +226,7 @@ const educationInfo = {
       logo: require("./assets/images/vit.png"),
       subHeader: "Bacehlors in Electronics and Computer Engineering",
       duration: "September 2021 - Jully 2025",
-      desc: "CGPA:8.85"
+      desc: "CGPA:8.89"
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
