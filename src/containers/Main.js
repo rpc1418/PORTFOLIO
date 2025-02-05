@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import Header from "../components/header/Header";
+
 import Greeting from "./greeting/Greeting";
 import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
@@ -46,13 +47,15 @@ const Main = () => {
   return (
     <div className={isDark ? "dark-mode" : null}>
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
+      
         {isShowingSplashAnimation && splashScreen.enabled ? (
           <SplashScreen />
         ) : (
           <>
             <Header />
+  
             <Greeting />
-            <Skills />
+        
             <StackProgress />
             <Education />
             <WorkExperience />

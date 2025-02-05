@@ -1,0 +1,49 @@
+/* Popup.scss */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .popup-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .popup-close-button {
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .popup-body {
+    margin-top: 20px;
+  }
+  
+  .popup-buttons {
+    margin-top: 20px;
+  }
+  
+  .ml-button,
+  .ec-button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  

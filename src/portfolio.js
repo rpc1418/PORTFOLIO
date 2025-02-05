@@ -270,11 +270,11 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "NLP Project Intern",
+      role: "NLP Project Concultancy",
       company: "Samsung",
       companylogo: require("./assets/images/Samsung.png"),
       date: "October 2024 – Present",
-      desc: "Developed a lightweight solution to classify chat communications into family and non-family classes, creating a labeled dataset from real-life conversations, while focusing on demographic factors and model efficiency for on-device deployment."
+      desc: "Developing a lightweight solution to classify chat communications into family and non-family classes, creating a labeled dataset from real-life conversations, while focusing on demographic factors and model efficiency for on-device deployment."
     },
     {
       role: "Development and ML Intern",
@@ -286,6 +286,13 @@ const workExperiences = {
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       // ]
+    },
+    {
+      role: "HCL Project Consultancy ",
+      company: "HCL-Tech",
+      companylogo: require("./assets/images/hcltech_logo.png"),
+      date: "Jul 2023 – Jun 2024",
+      desc: "Developed a Python-based tool that processes digital systems described in Verilog, extracts the Finite State Machine (FSM) from the design, and generates detailed information about the FSM, such as states, transitions, and output behavior. The tool automates the analysis and documentation of digital circuits, facilitating easier verification and debugging of complex designs. "
     },
     {
       role: "Research Intern and Trainee",
