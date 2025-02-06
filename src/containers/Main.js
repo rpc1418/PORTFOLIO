@@ -5,6 +5,7 @@ import Skills from "./skills/Skills";
 import StackProgress from "./skillProgress/skillProgress";
 import WorkExperience from "./workExperience/WorkExperience";
 import Projects from "./projects/Projects";
+import Education from "./education/Education";
 import StartupProject from "./StartupProjects/StartupProject";
 import Achievement from "./achievement/Achievement";
 import Profile from "./profile/Profile";
@@ -12,6 +13,7 @@ import SplashScreen from "./splashScreen/SplashScreen";
 import Popup from "../components/popupRes/Popup"; // Import the Popup component
 import { splashScreen } from "../portfolio";
 import { StyleProvider } from "../contexts/StyleContext";
+import ScrollToTopButton from "./topbutton/Top";
 import { useLocalStorage } from "../hooks/useLocalStorage";
 import "./Main.scss";
 
@@ -45,12 +47,14 @@ const Main = () => {
             <Header openPopup={openPopup} />
             <Greeting openPopup={openPopup} />
             <Skills />
+            <Education />
             <StackProgress />
             <WorkExperience />
             <Projects />
             <StartupProject />
             <Achievement />
             <Profile />
+            <ScrollToTopButton />
           </>
         )}
         {/* Show popup if isPopupOpen is true */}
