@@ -27,7 +27,7 @@ const greeting = {
   ),
   ML_resumeLink:"https://drive.google.com/file/d/1zi70n1L5jMnte5xeWsISXPYuvCdxi_7F/view?usp=sharing",
   EC_resumeLink:"https://drive.google.com/file/d/1w1L5pGEbHaptpT52qUUQTcnZ1no95dEO/view?usp=sharing",
-  SDE_resumeLink:"https://drive.google.com/file/d/1zi70n1L5jMnte5xeWsISXPYuvCdxi_7F/view?usp=sharing", // Set to empty to hide the button
+  SDE_resumeLink:"https://drive.google.com/file/d/10tz-tbf9Pu7ESZLnqIL7_roQFMrBvF1J/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
