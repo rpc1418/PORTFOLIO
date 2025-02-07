@@ -8,6 +8,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import { illustration, greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import myImage from "../../assets/images/myimg.png";
 
 
 export default function Greeting({ openPopup }) { // Accept openPopup as a prop
@@ -19,8 +20,13 @@ export default function Greeting({ openPopup }) { // Accept openPopup as a prop
   return (
     <Fade bottom duration={1000} distance="40px">
       <div className="greet-main" id="greeting">
+        
         <div className="greeting-main">
+        
           <div className="greeting-text-div">
+          <div className="image-container">
+        <img src={myImage} alt="Greeting" className="greeting-image" />
+      </div>
             <div>
             <h1
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}

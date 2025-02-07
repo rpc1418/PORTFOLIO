@@ -13,6 +13,22 @@
   margin-top: 2rem;
 }
 
+.image-container {
+  display: flex;
+  justify-content: Left;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.greeting-image {
+  border: 5px solid black;
+  border-radius: 10%;
+  width: 150px; /* Adjust as needed */
+  height: 200px; /* Adjust as needed */
+  object-fit: cover;
+}
+
+
 .greeting-main {
   display: flex;
 }

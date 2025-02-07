@@ -23,7 +23,7 @@ const greeting = {
   username: "rpc1418",
   title: "Hi all, I'm Rudraksh Chourey",
   subTitle: emoji(
-    "An Electronics and Computer Engineering student at VIT Chennai, with a passion for data science, machine learning, and software development. I specialize in FPGA programming, embedded systems, and developing AI-driven applications that solve real-world problems. With hands-on experience in working with FPGA, STM32, and Jetson boards, I focus on creating, testing, and optimizing embedded applications. My work spans across security analysis, deep learning models, and traffic analytics, where I integrate both hardware and software to deliver innovative solutions. I thrive on pushing the boundaries of technology, whether it's in AI model integration or business intelligence, and I am committed to developing impactful, cutting-edge solutions that drive progress in industries like road safety monitoring and business analytics."
+    "An Electronics and Computer Engineering student at VIT Chennai, with a passion for data science, machine learning, ASIC Designing and software development. "
   ),
   ML_resumeLink:"https://drive.google.com/file/d/1zi70n1L5jMnte5xeWsISXPYuvCdxi_7F/view?usp=sharing",
   EC_resumeLink:"https://drive.google.com/file/d/1w1L5pGEbHaptpT52qUUQTcnZ1no95dEO/view?usp=sharing",
